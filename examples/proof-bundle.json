@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-19T09:09:35.197607+00:00",
+  "session_id": "slay-checkable-delivery-2026-11-19",
+  "steps": [
+    {
+      "label": "Market snapshot (BTC) for the client brief",
+      "tool": "live_price",
+      "receipt_id": "63443a94-8987-4213-9311-4495b3dae467",
+      "result_excerpt": "BTC \u00b7 $63,765.25 USD\n\u25bc 1.14% (24h) \u00b7 Market cap: $1281.69B\nLive price snapshot via Coinbase \u00b7 fetched Thu, 19 Nov 2026 09:07:24 GMT \u00b7 cache age 5s\nSession: 10 steps saved \u00b7 https://zambo.dev/today/k/rMf5NU3cz1IRgtynVMsvBaQje78bvcWewO_Zz-eTJDNjn2Y2c9u9RjwZfqih1fdgJ6MpVvqBjGbm1hjcrk323mMleg4ls_bmETdHc6-d04Ci1ad0w_oNPlDXQ7fl\n3 continue calls left today\n\nReceipt: https://zambo.dev/run/63443a94-8987-4213-9311-4495b3dae467\ntoday history: https://zambo.dev/today/k/l6zZLAWgLUe6DIhKx4A8PAeJSYSGh6iinBcDJgSk32hPDpn0VfK_nZ6TffOG36jhiajErZ0QIkWcnzHE5DZwidjupthyeAfbt-zv68mtN4UbCTu-GWCIchRsjhgz\nEvery tool is"
+    },
+    {
+      "label": "Safety check on the delivery domain in the brief",
+      "tool": "scam_check",
+      "receipt_id": "6c751194-5723-4211-9f19-ccc7dfbf027e",
+      "result_excerpt": "target: https://zambo.dev\nverdict: unknown\nhuman line: Unknown: no record found. That does not mean it's safe.\nconfidence: 0.1\nreasons 1: No SCAMRA record matched; absence of a record is not proof of safety.\nsources 1: SCAMRA\nchecked at: 2026-11-19T09:08:24.799Z\nnote: A clean lookup is not proof of safety.\nnext steps 1 / tool: zambo_watch\nnext steps 1 / description: Keep checking https://zambo.dev and notify me when the condition is met.\nnext steps 1 / arguments / target: https://zambo.dev\nnext steps 1 / arguments / condition: Notify me if new public risk signals change this assessment\nnext st"
+    },
+    {
+      "label": "Prompt-injection scan of the client brief before any AI acts on it",
+      "tool": "prompt_shield",
+      "receipt_id": "3b7bf34b-f06b-49ef-9c65-eaa346f8a2d3",
+      "result_excerpt": "recommendation: block\nscan label: semantic analysis + pattern check (21 rules)\ninjection risk: 100\nrisk level: critical\njailbreak detected: true\npolicy bypass detected: true\nprompt leak detected: false\npii extraction attempt: true\nflagged patterns 1 / id: ignore_instructions\nflagged patterns 1 / name: Instruction Override\nflagged patterns 1 / severity: critical\nflagged patterns 1 / description: Attempts to override system instructions\npattern count: 1\nanalysis / intent: malicious\nanalysis / attack vector: instruction_override\nanalysis / reasoning: The prompt explicitly attempts to override pre"
+    }
+  ],
+  "handover": {
+    "attempted": true,
+    "ok": true,
+    "url": "zambo.dev/handover/87a00e2c-20c5-4467-81d2-a6811b0499b6",
+    "excerpt": "Open any AI with Zambo added and continue from this pickup link: https://zambo.dev/handover/87a00e2c-20c5-4467-81d2-a6811b0499b6?token=e516fb0939ab9779bf23cd5b29135fed7629995cc4bb717a881ad1ec03042c21\nJob saved: 35 recorded work steps. Its goal, receipts, and next steps stay together. Picking it up in another AI is free and does not use the shared daily metered-call allowance.\nChecked 1 thing, fixe"
+  },
+  "verifications": [
+    {
+      "receipt_id": "63443a94-8987-4213-9311-4495b3dae467",
+      "verify_url": "https://zambo.dev/api/v2/receipt/63443a94-8987-4213-9311-4495b3dae467/verify",
+      "ok": true,
+      "published_output_hash": "sha256:c174682bc048eb0c6db2b4e9318a120aeb183fedcb0028c4664903744965c270",
+      "computed_output_hash": "sha256:c174682bc048eb0c6db2b4e9318a120aeb183fedcb0028c4664903744965c270",
+      "canonical_bytes_len": 674,
+      "run_url": "https://zambo.dev/run/63443a94-8987-4213-9311-4495b3dae467"
+    },
+    {
+      "receipt_id": "6c751194-5723-4211-9f19-ccc7dfbf027e",
+      "verify_url": "https://zambo.dev/api/v2/receipt/6c751194-5723-4211-9f19-ccc7dfbf027e/verify",
+      "ok": true,
+      "published_output_hash": "sha256:f23bd18c61f7cbb38f667c0aab0537d52717f43ee85a6a193abd16e41bd635ce",
+      "computed_output_hash": "sha256:f23bd18c61f7cbb38f667c0aab0537d52717f43ee85a6a193abd16e41bd635ce",
+      "canonical_bytes_len": 851,
+      "run_url": "https://zambo.dev/run/6c751194-5723-4211-9f19-ccc7dfbf027e"
+    },
+    {
+      "receipt_id": "3b7bf34b-f06b-49ef-9c65-eaa346f8a2d3",
+      "verify_url": "https://zambo.dev/api/v2/receipt/3b7bf34b-f06b-49ef-9c65-eaa346f8a2d3/verify",
+      "ok": true,
+      "published_output_hash": "sha256:ef2e38fba389626787b7031fb6a5e3940415a5e6feef4548e368531fa7d61909",
+      "computed_output_hash": "sha256:ef2e38fba389626787b7031fb6a5e3940415a5e6feef4548e368531fa7d61909",
+      "canonical_bytes_len": 1616,
+      "run_url": "https://zambo.dev/run/3b7bf34b-f06b-49ef-9c65-eaa346f8a2d3"
+    }
+  ],
+  "all_receipts_verified": true
+}

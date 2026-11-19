@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Checkable Delivery: proof page</title></head><body><h1>Checkable Delivery</h1><p>This job was run by an AI through the Zambo MCP. Every step settled with a public AER-1 receipt, and this page's verification column was recomputed locally from each receipt's canonical bytes: the saved result either matches its hash, or it does not.</p><p>Handover (pick it up free, no account): <a href="https://zambo.dev/handover/87a00e2c-20c5-4467-81d2-a6811b0499b6">zambo.dev/handover/87a00e2c-20c5-4467-81d2-a6811b0499b6</a></p><section><h3>Market snapshot (BTC) for the client brief</h3><p>Tool: <code>live_price</code></p><p>Receipt: <a href="https://zambo.dev/run/63443a94-8987-4213-9311-4495b3dae467">63443a94-8987-4213-9311-4495b3dae467</a> <strong>VERIFIED</strong></p><p>Published hash: <code>sha256:c174682bc048eb0c6db2b4e9318a120aeb183fedcb0028c4664903744965c270</code><br>Recomputed hash: <code>sha256:c174682bc048eb0c6db2b4e9318a120aeb183fedcb0028c4664903744965c270</code></p><pre>BTC · $63,765.25 USD
+▼ 1.14% (24h) · Market cap: $1281.69B
+Live price snapshot via Coinbase · fetched Thu, 19 Nov 2026 09:07:24 GMT · cache age 5s
+Session: 10 steps saved · https://zambo.dev/today/k/rMf5NU3cz1IRgtynVMsvBaQje78bvcWewO_Zz-eTJDNjn2Y2c9u9RjwZfqih1fdgJ6MpVvqBjGbm1hjcrk323mMleg4ls_bmETdHc6-d04Ci1ad0w_oNPlDXQ7fl
+3 continue calls left today
+
+Receipt: https://zambo.dev/run/63443a94-8987-4213-9311-4495b3dae467
+today history: https://zambo.dev/today/k/l6zZLAWgLUe6DIhKx4A8PAeJSYSGh6iinBcDJgSk32hPDpn0VfK_nZ6TffOG36jhiajErZ0QIkWcnzHE5DZwidjupthyeAfbt-zv68mtN4UbCTu-GWCIchRsjhgz
+Every tool is</pre></section><section><h3>Safety check on the delivery domain in the brief</h3><p>Tool: <code>scam_check</code></p><p>Receipt: <a href="https://zambo.dev/run/6c751194-5723-4211-9f19-ccc7dfbf027e">6c751194-5723-4211-9f19-ccc7dfbf027e</a> <strong>VERIFIED</strong></p><p>Published hash: <code>sha256:f23bd18c61f7cbb38f667c0aab0537d52717f43ee85a6a193abd16e41bd635ce</code><br>Recomputed hash: <code>sha256:f23bd18c61f7cbb38f667c0aab0537d52717f43ee85a6a193abd16e41bd635ce</code></p><pre>target: https://zambo.dev
+verdict: unknown
+human line: Unknown: no record found. That does not mean it&#x27;s safe.
+confidence: 0.1
+reasons 1: No SCAMRA record matched; absence of a record is not proof of safety.
+sources 1: SCAMRA
+checked at: 2026-11-19T09:08:24.799Z
+note: A clean lookup is not proof of safety.
+next steps 1 / tool: zambo_watch
+next steps 1 / description: Keep checking https://zambo.dev and notify me when the condition is met.
+next steps 1 / arguments / target: https://zambo.dev
+next steps 1 / arguments / condition: Notify me if new public risk signals change this assessment
+next st</pre></section><section><h3>Prompt-injection scan of the client brief before any AI acts on it</h3><p>Tool: <code>prompt_shield</code></p><p>Receipt: <a href="https://zambo.dev/run/3b7bf34b-f06b-49ef-9c65-eaa346f8a2d3">3b7bf34b-f06b-49ef-9c65-eaa346f8a2d3</a> <strong>VERIFIED</strong></p><p>Published hash: <code>sha256:ef2e38fba389626787b7031fb6a5e3940415a5e6feef4548e368531fa7d61909</code><br>Recomputed hash: <code>sha256:ef2e38fba389626787b7031fb6a5e3940415a5e6feef4548e368531fa7d61909</code></p><pre>recommendation: block
+scan label: semantic analysis + pattern check (21 rules)
+injection risk: 100
+risk level: critical
+jailbreak detected: true
+policy bypass detected: true
+prompt leak detected: false
+pii extraction attempt: true
+flagged patterns 1 / id: ignore_instructions
+flagged patterns 1 / name: Instruction Override
+flagged patterns 1 / severity: critical
+flagged patterns 1 / description: Attempts to override system instructions
+pattern count: 1
+analysis / intent: malicious
+analysis / attack vector: instruction_override
+analysis / reasoning: The prompt explicitly attempts to override pre</pre></section></body></html>
