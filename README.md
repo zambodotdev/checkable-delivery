@@ -102,3 +102,15 @@ project was written on 2026-11-19, inside that window).
 ## Run it on the live service
 
 The demo runs on Zambo's free tier: Every tool free once a day, plus 3 continue calls. One free wrap-up handover per day, and pickup is always free. When a job outgrows the free tier, the [Day Pass](https://zambo.dev/day-pass/) is $0.99 for unlimited calls for 24 hours. Beyond that: Zambo Pass $29/mo ($19/mo for $ZAMBO holders), Lifetime Pass $250.
+
+## Handing AI work to a client
+
+This demo is the small version of the delivery procedure. The full version,
+written for agencies and freelancers, runs in five steps: build the record
+from the finished job, check its steps and source states once, write the
+three-line summary, send the one link to the named approver, and take the
+client's decision on the record:
+[How an agency hands over AI work to a client](https://zambo.dev/answers/how-an-agency-hands-over-ai-work-to-a-client/).
+The shorter version, built around one proof link the client reviews before
+choosing Accept or Flag, is
+[How to hand over AI work to a client](https://zambo.dev/answers/how-to-hand-off-ai-work-to-a-client).
