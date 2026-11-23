@@ -98,3 +98,7 @@ python3 src/checkable_delivery.py verify examples/proof-bundle.json
 
 MIT. Built for SLAY HACKS 2026 (development period from 2026-11-07; this
 project was written on 2026-11-19, inside that window).
+
+## Run it on the live service
+
+The demo runs on Zambo's free tier: Every tool free once a day, plus 3 continue calls. One free wrap-up handover per day, and pickup is always free. When a job outgrows the free tier, the [Day Pass](https://zambo.dev/day-pass/) is $0.99 for unlimited calls for 24 hours. Beyond that: Zambo Pass $29/mo ($19/mo for $ZAMBO holders), Lifetime Pass $250.
